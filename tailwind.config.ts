@@ -9,7 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        backgroundImage: {
+          bannerImg: "url('/image.png.webp')",
+          blackOverLay: "liner-gradiant(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)"
+        },
         foreground: "var(--foreground)",
       },
     },
